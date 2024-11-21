@@ -29,8 +29,11 @@ Author getAuthor(){
 int getPublicationYear(){
     return publicationYear;
 }
-std::vector<chapter> &Book:getChapters(){
+std::vector<chapter> getChapters(){
     return chapters;
+}
+void displayInfo(){
+std::cout<<"The World!";
 }
 };
 #endif

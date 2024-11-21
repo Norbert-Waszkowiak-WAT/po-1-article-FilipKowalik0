@@ -1,5 +1,3 @@
-#ifdef UNTITLED1_AUTHOR_H
-#ifdef UNTITLED1_AUTHOR_H
 #include <iostream>
 #include <string>
 using namespace std;
@@ -26,4 +24,3 @@ public:
     }
 
 };
-#endif
