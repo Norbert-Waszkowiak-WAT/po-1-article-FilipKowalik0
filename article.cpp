@@ -1,5 +1,5 @@
-#ifdef UNTITLED1_AUTHOR_H
-#ifdef UNTITLED1_AUTHOR_H
+#ifdef UNTITLED1_ARTICLE_H
+#define UNTITLED1_ARTICLE_H
 #include <iostream>
 #include <string>
 #include "author.cpp"
@@ -12,7 +12,7 @@ private:
     int publicationYear;
     string journal;
 public:
-    Aticle()
+    Article()
     :title(""), (Autor()), publicationYear(0),journal(""){};
     
     Article(string articleTitle, Author articleAuthor, int publicationYear, string journalName)
